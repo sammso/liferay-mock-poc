@@ -2,6 +2,7 @@ package com.sohlman.mockpoc.liferay;
 
 import junit.framework.Assert;
 
+import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mockito;
 
@@ -20,6 +21,7 @@ import com.liferay.portal.service.UserLocalServiceUtil;
 public class NotWorkingUserServiceTest {
 	
 	@Test
+	@Ignore
 	public void testOne() throws Exception {	
 		User userMock = Mockito.mock(User.class);
 		
@@ -38,6 +40,7 @@ public class NotWorkingUserServiceTest {
 	}
 	
 	@Test
+	@Ignore
 	public void testTwo() throws Exception {
 		User userMock = Mockito.mock(User.class);
 		
